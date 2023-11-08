@@ -1,0 +1,306 @@
+@media all {
+  /*Mobile frist*/
+
+  /*Gerais*/
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  html {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EE3F24;
+    background-repeat: no-repeat;
+  }
+
+  /*main*/
+
+  .geral {
+    background-color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.63);
+  }
+
+  img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .divform>h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .divform>p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  /*Form*/
+
+  .Gmial {
+    text-align: center;
+    background-color: #26B99F;
+    width: 210px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 2px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Gmial>input {
+    background-color: #FFC60A;
+    border: 2px solid #FFC60A;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 160px;
+  }
+
+  .Gmial>span {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .Senha {
+    text-align: center;
+    background-color: #26B99F;
+    width: 210px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .Senha>input {
+    background-color: #FFC60A;
+    border: 2px solid #FFC60A;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 160px;
+  }
+
+  .Senha>span {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .entrar {
+    display: block;
+    background-color: #FFC60A;
+    border: 2px solid #FFC60A;
+    border-radius: 10px;
+    margin: auto;
+    width: 213px;
+    padding: 10px;
+  }
+
+  .entrar:hover {
+    background-color: #fdd655;
+    border: 2px solid #fdd655;
+  }
+
+  .esqueci {
+    display: block;
+    border: 2px solid #FFC60A;
+
+    padding: 3px;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    text-decoration: none;
+    color: #e6b209;
+  }
+
+}
+
+@media (orientation:landscape) {
+  /*Mobile telas horizontais*/
+  /*main*/
+
+  .geral {
+    display: flex;
+    justify-content: center;
+
+    width: 600px;
+    height: 280px;
+  }
+
+  img {
+    width: 320px;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .divform>p {
+    margin-left: 10px;
+    margin-right: 30px;
+  }
+
+  /*Form*/
+
+  .Gmial {
+    width: 230px;
+    margin-bottom: 2px;
+  }
+
+  .Gmial>input {
+    width: 170px;
+  }
+
+  .Senha {
+    width: 230px;
+    margin-bottom: 2px;
+  }
+
+  .Senha>input {
+    width: 170px;
+  }
+
+  .entrar {
+    width: 235px;
+    padding: 5px;
+  }
+
+  .esqueci {
+    width: 300px;
+    border: none;
+  }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  body {
+    background-image: linear-gradient(to left, #26B99F, #F8C2D2, #FFC60A, #EE3F24);
+  }
+
+  /*main*/
+
+  .geral {
+    display: flex;
+    justify-content: center;
+
+    width: 740px;
+    height: 270px;
+  }
+
+  img {
+    width: 320px;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  /*Form*/
+
+  .Gmial {
+    width: 400px;
+    margin-bottom: 2px;
+  }
+
+  .Gmial>input {
+    width: 350px;
+  }
+
+  .Senha {
+    width: 400px;
+    margin-bottom: 2px;
+  }
+
+  .Senha>input {
+    width: 350px;
+  }
+
+  .entrar {
+    width: 405px;
+    padding: 5px;
+  }
+
+  .esqueci {
+    width: 390px;
+    border: none;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  body {
+    background-image: linear-gradient(to left, #26B99F, #F8C2D2, #FFC60A);
+  }
+
+  /*main*/
+
+  .geral {
+    display: flex;
+    justify-content: center;
+
+    width: 920px;
+    height: 400px;
+  }
+
+  img {
+    width: 500px;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .divform>h1 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .divform>p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  /*Form*/
+
+  .Gmial {
+    width: 350px;
+    margin-bottom: 8px;
+  }
+
+  .Senha {
+    width: 350px;
+    margin-bottom: 8px;
+  }
+
+  .entrar {
+    width: 355px;
+    padding: 5px;
+  }
+
+  .esqueci {
+    margin-top: 50px;
+    width: 390px;
+    border: none;
+  }
+}
